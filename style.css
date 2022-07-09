@@ -1,0 +1,75 @@
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+:root {
+  --color: #575757;
+  --white: white;
+  --color: #ef233c;
+}
+p {
+  font-size: 16px;
+  color: #575757;
+}
+/* banner section star */
+header {
+  background: url(images/banner.jpg) center center;
+  position: relative;
+  z-index: 5;
+}
+header::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -5;
+}
+.banner-content {
+  color: var(--white);
+  padding: 200px 0;
+  width: 40%;
+  padding-left: 120px;
+}
+.banner-content h1 {
+  margin: 0;
+}
+.banner-content p {
+  color: var(--white);
+}
+.btn {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--color);
+  padding: 12px 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+/* banner section end */
+/* video section start */
+.video-section {
+  margin: 80px 0;
+}
+.video-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.video-content {
+  width: 35%;
+}
+.video-content h2 {
+  margin: 0;
+}
+.video-content p {
+}
+.video {
+  width: 35%;
+}
+.video video {
+  width: 100%;
+}
+
+/* video section end */
