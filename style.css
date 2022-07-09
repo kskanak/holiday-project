@@ -103,3 +103,24 @@ header::after {
   margin: 0;
 }
 /* blog end */
+/* images start */
+.image-section {
+  width: 80%;
+  margin: 50px auto;
+}
+.image-gallary {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.images {
+  width: 31.3%;
+  height: 350px;
+  background: #0000ff33;
+}
+.image-gallary img {
+  /* border: 2px solid gray; */
+  padding: 7% 5.5%;
+}
+
+/* images end */
